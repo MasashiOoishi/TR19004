@@ -1,6 +1,25 @@
 python3で作成した。
 入力したデータをプロットする簡易データ評価する目的のアプリ
 
+requirements.txtのモジュールをインストールしてから始める
+sqlite3を使用しているので、インストールが必要
+
+フォルダを作成し、以下の様な構造に各ファイルを配置する
+
+フォルダ
+　｜ーmodels.py
+　｜ーrequirements.txt
+　｜ーrun.py
+　｜ーschema.sql
+　｜ーstatic　
+　｜　　｜ーresult
+　｜　　｜ーstyle.css
+　｜
+　｜ーtemplates
+　　　　｜ーbase.html
+　　　　｜ーedit.html
+　　　　｜ーindex.html
+　　　　｜ーview.html
 
 データ評価の流れ
 1. 新規評価から、入力画面へ移動
